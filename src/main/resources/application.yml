@@ -1,0 +1,10 @@
+jwt:
+  id: develop
+  kid: develop
+  tokenValidityInMilliseconds: 86400
+  issuer: develop
+  audience: pichincha
+  keys:
+    - alias: develop
+      publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5S+zrijrcqEZF748r3E+ASIKj00dnxX9X7LCpfpeEuNKlVOASaVFzxn4j0vBc6StE2NCsjI+ZIANyMrpvqvkGquqei+GSS1c0QCuuTGGBi54ec3WiDzEjYMOBELrwT1rBYg4TXZjvWMbjp/FmN6azm20lagiet/doKeHcwKyDGVVS4Z4vzPdpZgPeOjL0+pUptzHc8LWog1n70tcC4o9guTLz64Ronv9SpYJMvwbgvSntV7T1r1dccybHBJyuIg+t/F0tJcK3I1MioZW1rFSo0aMH7AfldEbqHkqmT+QVTPhi35JplBuRrm9VWPjKHOW5+bie/Sew+eJPHgsMuhKwIDAQAB
+spring.profiles.include: key.provider.local
